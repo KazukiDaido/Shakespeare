@@ -11,6 +11,7 @@
 		444D260229ADFD3C006E0503 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D260129ADFD3C006E0503 /* ContentView.swift */; };
 		444D260429ADFD3D006E0503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444D260329ADFD3D006E0503 /* Assets.xcassets */; };
 		444D260729ADFD3D006E0503 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444D260629ADFD3D006E0503 /* Preview Assets.xcassets */; };
+		444D261029ADFDDB006E0503 /* Shakespeare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D260F29ADFDDB006E0503 /* Shakespeare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		444D260129ADFD3C006E0503 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		444D260329ADFD3D006E0503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		444D260629ADFD3D006E0503 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		444D260F29ADFDDB006E0503 /* Shakespeare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakespeare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				444D25FF29ADFD3C006E0503 /* ShakespeareApp.swift */,
 				444D260129ADFD3C006E0503 /* ContentView.swift */,
+				444D260F29ADFDDB006E0503 /* Shakespeare.swift */,
 				444D260329ADFD3D006E0503 /* Assets.xcassets */,
 				444D260529ADFD3D006E0503 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				444D261029ADFDDB006E0503 /* Shakespeare.swift in Sources */,
 				444D260229ADFD3C006E0503 /* ContentView.swift in Sources */,
 				444D260029ADFD3C006E0503 /* ShakespeareApp.swift in Sources */,
 			);
