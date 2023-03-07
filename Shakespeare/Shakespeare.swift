@@ -13,3 +13,8 @@ struct Shakespeare: Hashable, Codable {
     var age: Int
     var registerDate: String
 }
+
+struct Success : Hashable, Codable {
+    var success: Bool
+    var data: [Shakespeare]
+}
