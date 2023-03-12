@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Shakespeare: Hashable, Codable {
+struct Shakespeare: Hashable, Codable, Identifiable {
     var name: String
     var note: String
     var age: Int
