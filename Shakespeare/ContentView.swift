@@ -11,7 +11,7 @@ struct ContentView: View {
     @State private var name = "a"
     @State private var note = ""
     @State private var age = ""
-    @State private var registerDate = ""
+   // @State private var registerDate = ""
     
     @State var shakespeares: [Shakespeare] = []
     
@@ -23,8 +23,12 @@ struct ContentView: View {
                 pushBotton()
             }
             List(shakespeares, id: \.self) { shakespeare in
-                Text(shakespeare.name)
-                Text(shakespeare.note)
+                Section (
+                    header: Text(shakespeare.name).font(.largeTitle)
+                ) {
+                    Text("note: \(shakespeare.note)")
+                    Text("age: \(shakespeare.age)")
+                }
             }
         }
     }
